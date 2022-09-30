@@ -270,7 +270,7 @@ export default {
 }
 
 .yellove {
-  background-color: yellow;
+  background-color: blue;
   padding: 10px;
   width: 160px;
   border-radius: 4px;
