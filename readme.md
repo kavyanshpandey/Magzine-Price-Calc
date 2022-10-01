@@ -1,1 +1,1 @@
-Demo link - https://configure-your-coverbook.web.app/
+Demo link of this project - https://configure-your-coverbook.web.app/
