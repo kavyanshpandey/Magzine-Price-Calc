@@ -1,28 +1,30 @@
-import Vue from 'vue'
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-import App from './App.vue'
-import VueRouter  from 'vue-router';
-import HomePage from './components/HomePage'
+import Vue from "vue";
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+import App from "./App.vue";
+import VueRouter from "vue-router";
+import HomePage from "./components/HomePage";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 // Vue.use(VueRouter );
 Vue.use(ElementUI);
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-const routes =[
+const routes = [
   {
-    path:'/', component: HomePage
-  }
+    // path to home page
+    path: "/",
+    component: HomePage,
+  },
 ];
 
-const router = new VueRouter ({
-  routes
-})
+const router = new VueRouter({
+  routes,
+});
 
 new Vue({
-  el: '#app',
+  el: "#app",
   router,
-  render: h => h(App)
-})
+  render: (h) => h(App),
+});
