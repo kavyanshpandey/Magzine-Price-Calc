@@ -11,6 +11,7 @@ export default {
   name: 'App',
   components: {
     // HomePage
+    // This is the test comment
   }
 }
 </script>
