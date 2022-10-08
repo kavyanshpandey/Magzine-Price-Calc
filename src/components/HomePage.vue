@@ -2,15 +2,15 @@
   <div style="display: flex">
     <div class="container-left">
       <div>
-        <div style="margin-top: 20px; padding-left: 20px; width: 70%">
-          <p class="yellove">Quantity</p>
+        <div style="margin-top: 50px; padding-left: 50px; width: 90%">
+          <p class="yellove">Length</p>
           <el-input
             :blur="calculatePrice()"
             placeholder="Qunatity"
             v-model="quantity"
           ></el-input>
         </div>
-        <div style="display: flex; margin-top: 40px">
+        <div style="display: flex; margin-top: 30px">
           <div
             :class="
               highLightCover === 'coverd'
@@ -106,6 +106,15 @@
               placeholder="Please enter some number"
               v-model="pages"
             ></el-input>
+            <img
+                id="vert"
+                src="@/assets/b3.svg"
+                alt="img_text"
+                width="100"
+                height="100"
+                value="vertical"
+                @click="getPrice('vertical')"
+              />
           </div>
         </div>
 
@@ -131,8 +140,8 @@
     <div class="container-right">
       <!-- <SignUpForm /> -->
 
-      <p class="yellove">Amount as per selctions</p>
-      <p style="font-size: 30px">{{ price }}</p>
+      <p class="yellove">Cost</p>
+      <p style="font-size: 40px">{{ price }}</p>
     </div>
   </div>
 </template>
@@ -146,15 +155,15 @@ export default {
       options: [
         {
           value: "mc-ss",
-          label: "Matt Coated - Symbol Satin",
+          label: "Matt Coated",
         },
         {
           value: "ham-tin",
-          label: "Hammered - Tintoretto",
+          label: "Hammered",
         },
         {
           value: "av-vw",
-          label: "Avoriata - Vellum White",
+          label: "Avoriata",
         },
       ],
       value: "mc-ss",
