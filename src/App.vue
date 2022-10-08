@@ -12,6 +12,7 @@ export default {
   components: {
     // HomePage
     // This is the test comment
+
   }
 }
 </script>
@@ -19,7 +20,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
 #app {
-  font-family: Montserrat ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
