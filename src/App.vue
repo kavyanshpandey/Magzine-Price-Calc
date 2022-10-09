@@ -12,6 +12,8 @@ export default {
   components: {
     // HomePage
     // This is the test comment
+    // This is another test comment....
+    // A Hello from your subscriber Bhaiya ... :)
 
   }
 }
