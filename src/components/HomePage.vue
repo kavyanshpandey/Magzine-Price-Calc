@@ -3,17 +3,17 @@
     <div class="container-left">
       <div>
         <div style="margin-top: 50px; padding-left: 50px; width: 90%">
-          <p class="yellove">Length</p>
+          <p class="yellow">Length</p>
           <el-input
             :blur="calculatePrice()"
-            placeholder="Qunatity"
+            placeholder="Quantity"
             v-model="quantity"
           ></el-input>
         </div>
         <div style="display: flex; margin-top: 30px">
           <div
             :class="
-              highLightCover === 'coverd'
+              highLightCover === 'covered'
                 ? 'highlighted-class'
                 : 'non-highlighted-class'
             "
@@ -23,7 +23,7 @@
               alt="img_text"
               width="100"
               height="100"
-              @click="getPriceCover('coverd')"
+              @click="getPriceCover('covered')"
             />
           </div>
           <div
@@ -59,7 +59,7 @@
         </div>
 
         <div>
-          <p class="yellove" style="margin-top: 20px; padding-left: 20px">Orientation</p>
+          <p class="yellow" style="margin-top: 20px; padding-left: 20px">Orientation</p>
           <div style="display: flex; padding-left: 20px">
             <div
               :class="
@@ -99,7 +99,7 @@
         </div>
 
         <div style="margin-top: 20px; padding-left: 20px; width: 70%">
-          <p class="yellove">Pages</p>
+          <p class="yellow">Pages</p>
           <div>
             <el-input
               :blur="calculatePrice()"
@@ -119,7 +119,7 @@
         </div>
 
         <div style="margin-top: 20px; padding-left: 20px; width: 70%">
-          <p class="yellove">Material Type</p>
+          <p class="yellow">Material Type</p>
           <div>
             <el-select
               v-model="value"
@@ -140,7 +140,7 @@
     <div class="container-right">
       <!-- <SignUpForm /> -->
 
-      <p class="yellove">Cost</p>
+      <p class="yellow">Cost</p>
       <p style="font-size: 40px">{{ price }}</p>
     </div>
   </div>
@@ -176,15 +176,15 @@ export default {
         "av-vw": 18,
         horizontal: 90,
         vertical: 79,
-        coverd: 89,
+        covered: 89,
         "self-covered": 79,
         flip: 99,
       },
-      valueForCover: "coverd",
+      valueForCover: "covered",
       valueForAlign: "horizontal",
 
       // Value for styles
-      highLightCover: "coverd",
+      highLightCover: "covered",
       highLight: "horizontal",
     };
   },
@@ -278,7 +278,7 @@ export default {
   cursor: pointer;
 }
 
-.yellove {
+.yellow {
   background-color: yellow;
   padding: 10px;
   width: 160px;

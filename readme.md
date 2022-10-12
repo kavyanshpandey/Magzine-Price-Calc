@@ -4,5 +4,6 @@ https://configure-your-coverbook.web.app/
 
 ## Tech Stack 
 VueJS <br />
-Firebase
+Firebase <br />
+HTML
 
