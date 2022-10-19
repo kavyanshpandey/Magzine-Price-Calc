@@ -1,8 +1,8 @@
 
-# Here's the Demo link - 
+# It is the Demo link you may checkout- 
 https://configure-your-coverbook.web.app/
 
-## Tech Stack 
+## Tech Stack---- 
 VueJS <br />
 Firebase
 
