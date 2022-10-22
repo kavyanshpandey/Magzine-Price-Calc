@@ -11,6 +11,7 @@ Vue.config.productionTip = false
 Vue.use(ElementUI);
 Vue.use(VueRouter)
 
+//create router
 const routes =[
   {
     path:'/', component: HomePage
