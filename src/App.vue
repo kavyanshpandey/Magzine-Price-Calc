@@ -14,7 +14,7 @@ export default {
     // This is the test comment
     // This is another test comment....
     // A Hello from your subscriber Bhaiya ... :)
-
+    // Hello from another subscriber .....
   }
 }
 </script>
@@ -22,7 +22,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
 #app {
-  font-family: 'Tahoma', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" ;
+  font-family: 'Tahoma', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif' ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
