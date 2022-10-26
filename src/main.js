@@ -26,3 +26,4 @@ new Vue({
   router,
   render: h => h(App)
 })
+// Adding new comment
