@@ -6,6 +6,7 @@
 </template>
 
 <script>
+  <!-- <HomePage /> -->
 
 export default {
   name: 'App',
