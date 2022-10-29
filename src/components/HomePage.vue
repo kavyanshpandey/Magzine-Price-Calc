@@ -2,11 +2,11 @@
   <div style="display: flex">
     <div class="container-left">
       <div>
-        <div style="margin-top: 50px; padding-left: 50px; width: 90%">
+        <div style="margin-top: 50px; padding-left: 15px; width: 90%">
           <p class="yellove">Length</p>
           <el-input
             :blur="calculatePrice()"
-            placeholder="Qunatity"
+            placeholder="Quantity"
             v-model="quantity"
           ></el-input>
         </div>
@@ -272,10 +272,11 @@ export default {
   display: flex-inline;
   padding: 10px;
   margin-right: 100px;
-  background-color: #f6f6f6;
+  background-color: #585656;
   border: 2px solid #f6f6f6;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: 3px 3px;
 }
 
 .yellove {
@@ -283,5 +284,6 @@ export default {
   padding: 10px;
   width: 160px;
   border-radius: 4px;
+  box-shadow: 3px 3px;
 }
 </style>
