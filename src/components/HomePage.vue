@@ -37,7 +37,7 @@
               src="@/assets/b1.png"
               alt="img_text"
               width="100"
-              height="100"
+              height="110"
               @click="getPriceCover('self-covered')"
             />
           </div>
