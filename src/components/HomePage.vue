@@ -21,7 +21,7 @@
             <img
               src="@/assets/b2.svg"
               alt="img_text"
-              width="100"
+              width="99"
               height="100"
               @click="getPriceCover('coverd')"
             />
