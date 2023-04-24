@@ -21,8 +21,8 @@
             <img
               src="@/assets/b2.svg"
               alt="img_text"
-              width="100"
-              height="100"
+              width="98"
+              height="99"
               @click="getPriceCover('coverd')"
             />
           </div>
@@ -36,8 +36,8 @@
             <img
               src="@/assets/b1.png"
               alt="img_text"
-              width="100"
-              height="100"
+              width="98"
+              height="99"
               @click="getPriceCover('self-covered')"
             />
           </div>
@@ -51,8 +51,8 @@
             <img
               src="@/assets/b3.svg"
               alt="img_text"
-              width="100"
-              height="100"
+              width="98"
+              height="99"
               @click="getPriceCover('flip')"
             />
           </div>
@@ -239,7 +239,7 @@ export default {
   display: block;
   height: 100vh;
   width: 100%;
-  /* background: rgb(249, 252, 255); */
+  /* background: rgb(247, 255, 257); */
 }
 
 .container-right {
