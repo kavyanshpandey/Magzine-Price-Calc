@@ -26,3 +26,5 @@ new Vue({
   router,
   render: h => h(App)
 })
+
+// Vue.js is a progressive JavaScript framework for building user interfaces. It allows developers to create interactive and dynamic web applications with ease. Vue is known for its simplicity and flexibility, making it a popular choice for frontend development.
